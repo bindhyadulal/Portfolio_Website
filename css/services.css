@@ -1,0 +1,62 @@
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+/* Services Section */
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual Service Card */
+.service-card {
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Icon */
+.service-icon img {
+    width: 50px; /* Adjust icon size */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Service Title */
+.service-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Service Description */
+.service-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Hover Effect */
+.service-card:hover {
+    background-color:rgba(173, 216, 230, 0.9); /* Change to blue on hover */
+    color: white;
+    transform: translateY(-5px); /* Slight lift effect */
+}
+
+/* Change text and icon color on hover */
+.service-card:hover h3,
+.service-card:hover p {
+    color: white;
+}
+
+.service-card:hover .service-icon img {
+    filter: brightness(0) invert(1); /* Makes the icon white */
+}
+
+

@@ -1,0 +1,58 @@
+<!-- pages/about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <!-- Navbar (same as index.html) -->
+    <section class="about">
+        <div class="about-image">
+            <img src="5.jpg" alt="Profile">
+        </div>
+        <div class="about-content">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">Passionate UI/UX designer with a keen eye for creating beautiful and functional interfaces.</p>
+            
+            <div class="tabs">
+                <button class="tab active" data-tab="skills">Skills</button>
+                <button class="tab" data-tab="experience">Experience</button>
+                <button class="tab" data-tab="education">Education</button>
+            </div>
+
+            <div class="tab-content active" id="skills">
+                <div class="skill-item">
+                    <span>UI/UX Design</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <!-- Add more skills -->
+            </div>
+
+            <div class="tab-content" id="experience">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>2021 - Present</h4>
+                        <h3>UI/UX Design Training at ET Institute</h3>
+                    </div>
+                    <!-- Add more experience -->
+                </div>
+            </div>
+
+            <div class="tab-content" id="education">
+                <!-- Education content -->
+            </div>
+        </div>
+    </section>
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
+<!-- Similar structure for services.html, portfolio.html, and contact.html -->
